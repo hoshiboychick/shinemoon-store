@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.nav-about {
+    width: 163px;
+}
+
+.nav-contacts {
+    width: 243px;
+}
+
+.nav-catalog {
+    width: 211px;
+}
+
+.nav a {
+    display: inline-block;
+    color: #ffffffd9;
+    text-decoration: none;
+    font-size: 4em;
+    font-weight: 300;
+    letter-spacing: 0.105em;
+    height: 63px;
+    text-shadow: 4px 7px 10px #0000007a;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.nav li:last-child {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+    height: 63px;
+}
+
+.nav ul {
+    display: block;
+    padding: 0;
+    margin: 0 186px 0 248px;
+    word-spacing: -6px;
+}
+
+.main-header img {
+    display: block;
+}
