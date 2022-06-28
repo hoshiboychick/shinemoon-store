@@ -20,12 +20,32 @@ body {
     width: 163px;
 }
 
+.nav-about:hover,
+.nav-contacts:hover,
+.nav-catalog:hover {
+    color: #7b5bff;
+}
+
+.nav-about,
+.nav-contacts,
+.nav-catalog {
+    transition: .5s;
+}
+
 .nav-contacts {
     width: 243px;
 }
 
 .nav-catalog {
     width: 211px;
+}
+
+.cart:hover svg path {
+    fill: #7b5bff;
+}
+
+.cart svg path {
+    transition: fill .5s;
 }
 
 .navlink {
@@ -74,6 +94,22 @@ body {
     height: 62px;
 }
 
+.social-links a {
+    text-decoration: none;
+}
+
+.telegram-icon:hover svg path,
+.instagram-icon:hover svg path,
+.vk-icon:hover .vk-icon-filler {
+    fill: #7b5bff;
+}
+
+.telegram-icon svg path,
+.instagram-icon svg path,
+.vk-icon-filler {
+    transition: fill .5s;
+}
+
 /* Invitation screen */
 .invitation {
     margin-top: 32px;
@@ -96,7 +132,8 @@ body {
     width: 285px;
     padding: 16px 51px 4px 51px;
     border-radius: 60px;
-    box-shadow: 4px 7px 10px #0000007a;;
+    box-shadow: 4px 7px 10px #0000007a;
+    ;
 }
 
 .gotocatalog {
@@ -113,4 +150,8 @@ body {
 
 .btn:hover {
     background-color: #7b5bff;
+}
+
+.btn {
+    transition: .5s;
 }
