@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -76,11 +76,27 @@ body {
     height: 63px;
 }
 
-.nav {
+.nav-main {
     display: block;
     padding-left: 0;
     margin: 0 190px 0 251px;
     word-spacing: -3px;
+}
+
+.nav {
+    display: block;
+    margin: 0 190px 0 4px;
+    padding: 0;
+    word-spacing: -3px;
+}
+
+.logo-img {
+    margin-left: -22px;
+    margin-top: -3px;
+}
+
+.selected {
+    color: #a893ff;
 }
 
 /* Social media links */
@@ -153,4 +169,23 @@ body {
 
 .btn {
     transition: .5s;
+}
+
+/* About text */
+.about {
+    margin-top: 38px;
+    height: 747px;
+}
+
+.about-text {
+    margin-bottom: 32px;
+    color: #ffffffd9;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.085em;
 }
