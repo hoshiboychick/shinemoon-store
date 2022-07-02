@@ -22,13 +22,15 @@ body {
 
 .nav-about:hover,
 .nav-contacts:hover,
-.nav-catalog:hover {
+.nav-catalog:hover,
+.contacts-faq:hover p {
     color: #7b5bff;
 }
 
 .nav-about,
 .nav-contacts,
-.nav-catalog {
+.nav-catalog,
+.contacts-faq p {
     transition: .5s;
 }
 
@@ -116,13 +118,20 @@ body {
 
 .telegram-icon:hover svg path,
 .instagram-icon:hover svg path,
-.vk-icon:hover .vk-icon-filler {
+.vk-icon:hover .vk-icon-filler,
+.smalltelegram:hover svg path,
+.smallinstagram:hover svg path,
+.smallvk:hover .vk-icon-filler,
+.smallemail:hover svg path {
     fill: #7b5bff;
 }
 
 .telegram-icon svg path,
 .instagram-icon svg path,
-.vk-icon-filler {
+.vk-icon-filler,
+.smalltelegram svg path,
+.smallinstagram svg path,
+.smallemail svg path {
     transition: fill .5s;
 }
 
@@ -188,4 +197,92 @@ body {
     align-items: center;
     text-align: justify;
     letter-spacing: 0.085em;
+}
+
+/* Contacts */
+.contacts {
+    margin-top: 30px;
+}
+
+.map {
+    float: left;
+    filter: drop-shadow(4px 7px 10px rgba(0, 0, 0, 0.48));
+    margin-right: 23px;
+}
+
+.contacts-info {
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 32px;
+    color: #ffffffd9;
+    width: 487px;
+}
+
+.contacts-address {
+    margin-top: 23px;
+}
+
+.contacts-phone {
+    margin-top: 30px;
+}
+
+.contacts-workinghours {
+    margin-top: 29px;
+}
+
+.contacts-faq {
+    margin-top: 30px;
+}
+
+.semibold32 {
+    text-shadow: 4px 7px 10px rgba(0, 0, 0, 0.48);
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    letter-spacing: .105em;
+}
+
+.regular32 {
+    text-shadow: 4px 7px 10px rgba(0, 0, 0, 0.48);
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    letter-spacing: 0.085em;
+    text-align: justify;
+    line-height: 110%;
+}
+
+.extralight32 {
+    text-shadow: 4px 7px 10px rgba(0, 0, 0, 0.48);
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    letter-spacing: 0.085em;
+    text-align: justify;
+    line-height: 32px;
+}
+
+.social-icons-small {
+    margin-top: 10px;
+}
+
+.social-small-item {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.time {
+    margin-left: 135px;
+}
+
+.faq {
+    color: #a893ff;
+}
+
+.contacts-item {
+    margin-top: 10px;
+}
+
+.contacts-faq a {
+    text-decoration: none;
 }
