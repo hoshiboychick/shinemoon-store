@@ -197,6 +197,7 @@ body {
     align-items: center;
     text-align: justify;
     letter-spacing: 0.085em;
+    text-shadow: 4px 7px 10px rgba(0, 0, 0, 0.48);
 }
 
 /* Contacts */
@@ -285,4 +286,64 @@ body {
 
 .contacts-faq a {
     text-decoration: none;
+}
+
+/* Catalog */
+.catalog {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    font-size: 0;
+    margin: 0 24px 20px 204px;
+}
+
+.colorpicker {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.circle {
+    margin-right: 8px;
+    margin-left: 8px;
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    border-radius: 16px;
+    box-shadow: 4px 7px 10px #0000007a;
+}
+
+.black-color {
+    background-color: #000000;
+}
+
+.white-color {
+    background-color: #ffffffd9;
+}
+
+.selected-color {
+    border: 2px solid #a893ff;
+}
+
+.productname {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.105em;
+    color: #ffffffd9;
+    text-shadow: 4px 7px 10px #0000007a;
+    height: 22px;
+    margin-bottom: 10px;
+}
+
+.catalog-price {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.105em;
+    color: #a994ff;
+    text-shadow: 4px 7px 10px #0000007a;
 }
