@@ -347,3 +347,148 @@ body {
     color: #a994ff;
     text-shadow: 4px 7px 10px #0000007a;
 }
+
+/* Product page */
+.productpage {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.105em;
+    color: #ffffffd9;
+}
+
+.productinfo {
+    margin-left: 102px;
+}
+
+.productpic img {
+    width: 486px;
+}
+
+.productpic {
+    z-index: 9;
+    position: absolute;
+    float: left;
+    box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.48);
+    margin-right: 126px;
+    height: 486px;
+}
+
+.productprops {
+    display: inline-block;
+    margin-left: 612px;
+}
+
+.productnamebig {
+    margin: 13px 0 30px 0;
+    color: #a893ff;
+    text-shadow: 4px 7px 10px rgba(0, 0, 0, 0.48);
+}
+
+.availablecolors {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.availablecolors-text {
+    margin: 0 0 10px 0;
+    text-shadow: 4px 7px 10px rgba(0, 0, 0, 0.48);
+}
+
+.colorpickerbig {
+    height: 60px;
+}
+
+.circlebig {
+    margin-left: 21px;
+    margin-right: 21px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    box-shadow: 4px 7px 10px #0000007a;
+}
+
+.availablesizes {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.availablesizes-text {
+    margin: 0 0 10px 0;
+}
+
+.size {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    display: inline-block;
+    letter-spacing: 0.105em;
+    text-shadow: 4px 7px 10px rgba(0, 0, 0, 0.48);
+}
+
+.unavailable-size {
+    text-decoration: line-through;
+    color: #ff7979;
+}
+
+.sizes {
+    line-height: 40px;
+}
+
+.product-price {
+    margin-bottom: 10px;
+    height: 48px;
+    text-align: center;
+}
+
+.price-text {
+    margin: 0 12px 0 0;
+    display: inline-block;
+}
+
+.price {
+    margin: 0;
+    display: inline-block;
+}
+
+.addtocart-btn p {
+    display: inline-block;
+    width: 200px;
+    margin: 0;
+    padding: 8px 24px 0;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: normal;
+    background-color: #a893ff;
+    color: #ffffffd9;
+    border-radius: 60px;
+    box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.48);
+    transition: .5s;
+}
+
+.addtocart-btn {
+    text-align: center;
+}
+
+.addtocart-link {
+    text-decoration: none;
+}
+
+.addtocart-btn p:hover{
+    background-color: #7b5bff;
+}
+
+.productdesc {
+    margin: 51px auto 0;
+    max-width: 996px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.085em;
+    align-items: center;
+}
